@@ -13,6 +13,26 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
 angular.module('com.bmc.arsys.rx.standardlib.utils').run(['$templateCache', function($templateCache) {
   'use strict';
 
+  $templateCache.put('scripts/view-components/custom-blog/com-vyom-vyomlib-custom-blog-design.directive.html',
+    "<span class=\"d-icon-book_o\" style=\"font-size: 100px;text-align: center\"></span>"
+  );
+
+
+  $templateCache.put('scripts/view-components/custom-blog/com-vyom-vyomlib-custom-blog.directive.html',
+    "<html><head></head><body><div><div><div id=\"{{editorID}}\" contenteditable=\"true\"><p>Here goes the initial content of the editor.</p></div></div><div><button type=\"button\" class=\"d-button d-button_primary\" ng-click=\"updateHTML();\">Save</button> <button type=\"button\" class=\"d-button d-button_primary\">Edit</button></div></div></body></html>"
+  );
+
+
+  $templateCache.put('scripts/view-components/custom-blog/com-vyom-vyomlib-inspector-custom-blog-fields.directive.html',
+    "<label ng-class=\"options.attrs.label.class\"><rx-tooltip tooltip=\"options.tooltip\"></rx-tooltip>{{options.label}}:</label><div ng-if=\"data.fields.length\"><select class=\"select\" ng-options=\"field.name for field in data.fields track by field.id \" ng-model=\"data.selectedField\"></select></div><div ng-if=\"!data.fields.length\">Record Definition is must.</div>"
+  );
+
+
+  $templateCache.put('scripts/view-components/custom-blog/com-vyom-vyomlib-inspector-custom-blog-guid.directive.html',
+    "<label ng-class=\"options.attrs.label.class\"><rx-tooltip tooltip=\"options.tooltip\"></rx-tooltip>{{options.label}}:</label><div ng-if=\"data.fields.length\"><select class=\"select\" ng-options=\"field[179] for field in data.fields \" ng-model=\"data.selectedField\"></select></div><div ng-if=\"!data.fields.length\">Records not available.</div>"
+  );
+
+
   $templateCache.put('scripts/view-components/custom-card/com-vyom-vyomlib-custom-card-design.directive.html',
     "<h4>Custom Card</h4>"
   );
@@ -1419,7 +1439,7 @@ angular.module('com.bmc.arsys.rx.standardlib.utils').run(['$templateCache', func
 
 
   $templateCache.put('scripts/view-components/test-vc1/com-vyom-vyomlib-test-vc1-design.directive.html',
-    "<h3>Hierarchy</h3>"
+    "<h3>Hierarchy1</h3>"
   );
 
 
