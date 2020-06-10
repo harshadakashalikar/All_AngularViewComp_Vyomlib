@@ -22,8 +22,12 @@
         'com.vyom.vyomlib.view-components.kanban1',
         'com.vyom.vyomlib.view-components.simple-widget',
         'com.vyom.vyomlib.view-components.landing-console',
+<<<<<<< HEAD
         'com.vyom.vyomlib.view-components.registration',
         'com.vyom.vyomlib.view-components.test-vc1'
+=======
+        'com.vyom.vyomlib.view-components.registration'
+>>>>>>> 254dc266fa262449f15b1f9fe51650f869c39ba8
 
                     
     ]);
