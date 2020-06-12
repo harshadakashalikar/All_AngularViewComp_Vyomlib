@@ -15,6 +15,7 @@
 
         // Getting configuration defined in Innovation Studio parameters.
         // We can also setup default values.
+        // below code is used to return/store the edited data on view designer when clicked on Save
         function getRxData(componentDefinition, componentDescriptor) {
 
 
@@ -42,19 +43,21 @@
                             group: 'General',
                             index: 1
                         },
+                        //obeserve that in below section, cutom type html is used which is designed 
                         HTMLField: {
                             label: 'HTML',
                             type: 'com-vyom-vyomlib-inspector-custom-blog-fields',
                             group: 'General',
                             index: 2
                         },
+                        //obeserve that in below section, cutom type html is used which is designed 
                         RecInstanceId: {
                             label: 'Record Instance Id',
                             type: 'com-vyom-vyomlib-inspector-custom-blog-guid',
                             group: 'General',
                             index: 3
                         },
-
+                        //obeserve that in below section, cutom type html is used which is designed 
                         editorInstance: {
                             label: 'editor Instance Id',
                             type: 'rx-inspector-expression-node-field',

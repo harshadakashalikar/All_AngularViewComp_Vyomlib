@@ -26,6 +26,10 @@
 
                             angular.element(document).ready(function () {
 
+                                //call editor from standardlib 
+                                //inline is type for floting editor toolbar, we can use classic or bubble as well
+                                // CKEDITOR can be directly acced from stdlib
+                                // this automatically generates HTML and present on screen under div id (editor ID given in html file)
                                 $scope.editor = CKEDITOR.inline($scope.editorID, {
                                     height: '500px',
                                     extraPlugins: ['image', 'find', 'sharedspace', 'base64image', 'sourcedialog', 'wsc'],
@@ -66,6 +70,8 @@
                             }
                         };
 
+
+                        // this function is used to get the html formatted data back to the screen
                         function getHTML() {
                             var objectRecord = rxRecordInstanceResource.withName($scope.RecordDefinition);
                             objectRecord.get($scope.RecInstanceId).then(

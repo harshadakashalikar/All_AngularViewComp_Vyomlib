@@ -19,17 +19,17 @@ angular.module('com.bmc.arsys.rx.standardlib.utils').run(['$templateCache', func
 
 
   $templateCache.put('scripts/view-components/custom-blog/com-vyom-vyomlib-custom-blog.directive.html',
-    "<html><head></head><body><div><div><div id=\"{{editorID}}\" contenteditable=\"true\"><p>Here goes the initial content of the editor.</p></div></div><div><button type=\"button\" class=\"d-button d-button_primary\" ng-click=\"updateHTML();\">Save</button> <button type=\"button\" class=\"d-button d-button_primary\">Edit</button></div></div></body></html>"
+    "<html><head></head><body><div><div><!-- below code is for template of CKEDITOR which will be displayed under div id=\"{{editorID}}  --><!-- and 2 buttons, save and edit --><div id=\"{{editorID}}\" contenteditable=\"true\"><p>Here goes the initial content of the editor.</p></div></div><div><button type=\"button\" class=\"d-button d-button_primary\" ng-click=\"updateHTML();\">Save</button> <button type=\"button\" class=\"d-button d-button_primary\">Edit</button></div></div></body></html>"
   );
 
 
   $templateCache.put('scripts/view-components/custom-blog/com-vyom-vyomlib-inspector-custom-blog-fields.directive.html',
-    "<label ng-class=\"options.attrs.label.class\"><rx-tooltip tooltip=\"options.tooltip\"></rx-tooltip>{{options.label}}:</label><div ng-if=\"data.fields.length\"><select class=\"select\" ng-options=\"field.name for field in data.fields track by field.id \" ng-model=\"data.selectedField\"></select></div><div ng-if=\"!data.fields.length\">Record Definition is must.</div>"
+    "<!-- below code is used to populate the options in design phase under General section --><!-- this populates the fiend lables of record defination selected --><label ng-class=\"options.attrs.label.class\"><rx-tooltip tooltip=\"options.tooltip\"></rx-tooltip>{{options.label}}:</label><div ng-if=\"data.fields.length\"><select class=\"select\" ng-options=\"field.name for field in data.fields track by field.id \" ng-model=\"data.selectedField\"></select></div><div ng-if=\"!data.fields.length\">Record Definition is must.</div>"
   );
 
 
   $templateCache.put('scripts/view-components/custom-blog/com-vyom-vyomlib-inspector-custom-blog-guid.directive.html',
-    "<label ng-class=\"options.attrs.label.class\"><rx-tooltip tooltip=\"options.tooltip\"></rx-tooltip>{{options.label}}:</label><div ng-if=\"data.fields.length\"><select class=\"select\" ng-options=\"field[179] for field in data.fields \" ng-model=\"data.selectedField\"></select></div><div ng-if=\"!data.fields.length\">Records not available.</div>"
+    "<!-- below code is used to populate the options in design phase under General section --><!-- this populates the GUID of record defination selected --><label ng-class=\"options.attrs.label.class\"><rx-tooltip tooltip=\"options.tooltip\"></rx-tooltip>{{options.label}}:</label><div ng-if=\"data.fields.length\"><select class=\"select\" ng-options=\"field[179] for field in data.fields \" ng-model=\"data.selectedField\"></select></div><div ng-if=\"!data.fields.length\">Records not available.</div>"
   );
 
 
