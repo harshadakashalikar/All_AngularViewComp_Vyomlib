@@ -467,13 +467,13 @@ angular.module('com.bmc.arsys.rx.standardlib.utils').run(['$templateCache', func
   );
 
 
-  $templateCache.put('scripts/view-components/kanban1/com-vyom-vyomlib-kanban1-design.directive.html',
-    "<h4>Kanban1</h4>"
+  $templateCache.put('scripts/view-components/kanban2/com-vyom-vyomlib-kanban2-design.directive.html',
+    "<h4>Kanban2</h4>"
   );
 
 
-  $templateCache.put('scripts/view-components/kanban1/com-vyom-vyomlib-kanban1.directive.html',
-    "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><link href=\"https://fonts.googleapis.com/css?family=Lato\" rel=\"stylesheet\"><link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css\"><title>Kanban</title><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban1/dist/jkanban4.css\"><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban1/dist/jkanban_form.css\"><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban1/dist/card_layout1.css\"><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban1/dist/jkanban_material_popup1.css\"><script src=\"/com.vyom.vyomlib/resources/kanban1/dist/jkanban.js\"></script></head><style>body {\r" +
+  $templateCache.put('scripts/view-components/kanban2/com-vyom-vyomlib-kanban2.directive.html',
+    "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><link href=\"https://fonts.googleapis.com/css?family=Lato\" rel=\"stylesheet\"><link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css\"><title>Kanban</title><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban2/dist/jkanban4.css\"><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban2/dist/jkanban_form.css\"><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban2/dist/card_layout1.css\"><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban2/dist/jkanban_material_popup1.css\"><script src=\"/com.vyom.vyomlib/resources/kanban2/dist/jkanban.js\"></script></head><style>body {\r" +
     "\n" +
     "        font-family: \"Lato\";\r" +
     "\n" +

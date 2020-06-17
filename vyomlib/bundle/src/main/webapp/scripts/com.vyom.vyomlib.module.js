@@ -19,7 +19,7 @@
         'com.vyom.vyomlib.view-components.vc17',
         'com.vyom.vyomlib.view-components.topheader', 
         'com.vyom.vyomlib.view-components.vc19', // Custom Icon Block
-        'com.vyom.vyomlib.view-components.kanban1',
+        'com.vyom.vyomlib.view-components.kanban2',
         'com.vyom.vyomlib.view-components.simple-widget',
         'com.vyom.vyomlib.view-components.landing-console',
         'com.vyom.vyomlib.view-components.registration',

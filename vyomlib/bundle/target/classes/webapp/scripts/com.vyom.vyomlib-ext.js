@@ -19,17 +19,17 @@ angular.module('com.bmc.arsys.rx.standardlib.utils').run(['$templateCache', func
 
 
   $templateCache.put('scripts/view-components/custom-blog/com-vyom-vyomlib-custom-blog.directive.html',
-    "<html><head></head><body><div><div><div id=\"{{editorID}}\" contenteditable=\"true\"><p>Here goes the initial content of the editor.</p></div></div><div><button type=\"button\" class=\"d-button d-button_primary\" ng-click=\"updateHTML();\">Save</button> <button type=\"button\" class=\"d-button d-button_primary\">Edit</button></div></div></body></html>"
+    "<html><head></head><body><div><div><!-- below code is for template of CKEDITOR which will be displayed under div id=\"{{editorID}}  --><!-- and 2 buttons, save and edit --><div id=\"{{editorID}}\" contenteditable=\"true\"><p>Here goes the initial content of the editor.</p></div></div><div><button type=\"button\" class=\"d-button d-button_primary\" ng-click=\"updateHTML();\">Save</button> <button type=\"button\" class=\"d-button d-button_primary\">Edit</button></div></div></body></html>"
   );
 
 
   $templateCache.put('scripts/view-components/custom-blog/com-vyom-vyomlib-inspector-custom-blog-fields.directive.html',
-    "<label ng-class=\"options.attrs.label.class\"><rx-tooltip tooltip=\"options.tooltip\"></rx-tooltip>{{options.label}}:</label><div ng-if=\"data.fields.length\"><select class=\"select\" ng-options=\"field.name for field in data.fields track by field.id \" ng-model=\"data.selectedField\"></select></div><div ng-if=\"!data.fields.length\">Record Definition is must.</div>"
+    "<!-- below code is used to populate the options in design phase under General section --><!-- this populates the fiend lables of record defination selected --><label ng-class=\"options.attrs.label.class\"><rx-tooltip tooltip=\"options.tooltip\"></rx-tooltip>{{options.label}}:</label><div ng-if=\"data.fields.length\"><select class=\"select\" ng-options=\"field.name for field in data.fields track by field.id \" ng-model=\"data.selectedField\"></select></div><div ng-if=\"!data.fields.length\">Record Definition is must.</div>"
   );
 
 
   $templateCache.put('scripts/view-components/custom-blog/com-vyom-vyomlib-inspector-custom-blog-guid.directive.html',
-    "<label ng-class=\"options.attrs.label.class\"><rx-tooltip tooltip=\"options.tooltip\"></rx-tooltip>{{options.label}}:</label><div ng-if=\"data.fields.length\"><select class=\"select\" ng-options=\"field[179] for field in data.fields \" ng-model=\"data.selectedField\"></select></div><div ng-if=\"!data.fields.length\">Records not available.</div>"
+    "<!-- below code is used to populate the options in design phase under General section --><!-- this populates the GUID of record defination selected --><label ng-class=\"options.attrs.label.class\"><rx-tooltip tooltip=\"options.tooltip\"></rx-tooltip>{{options.label}}:</label><div ng-if=\"data.fields.length\"><select class=\"select\" ng-options=\"field[179] for field in data.fields \" ng-model=\"data.selectedField\"></select></div><div ng-if=\"!data.fields.length\">Records not available.</div>"
   );
 
 
@@ -467,13 +467,13 @@ angular.module('com.bmc.arsys.rx.standardlib.utils').run(['$templateCache', func
   );
 
 
-  $templateCache.put('scripts/view-components/kanban1/com-vyom-vyomlib-kanban1-design.directive.html',
-    "<h4>Kanban1</h4>"
+  $templateCache.put('scripts/view-components/kanban2/com-vyom-vyomlib-kanban2-design.directive.html',
+    "<h4>Kanban2</h4>"
   );
 
 
-  $templateCache.put('scripts/view-components/kanban1/com-vyom-vyomlib-kanban1.directive.html',
-    "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><link href=\"https://fonts.googleapis.com/css?family=Lato\" rel=\"stylesheet\"><link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css\"><title>Kanban</title><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban1/dist/jkanban4.css\"><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban1/dist/jkanban_form.css\"><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban1/dist/card_layout1.css\"><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban1/dist/jkanban_material_popup1.css\"><script src=\"/com.vyom.vyomlib/resources/kanban1/dist/jkanban.js\"></script></head><style>body {\r" +
+  $templateCache.put('scripts/view-components/kanban2/com-vyom-vyomlib-kanban2.directive.html',
+    "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><link href=\"https://fonts.googleapis.com/css?family=Lato\" rel=\"stylesheet\"><link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css\"><title>Kanban</title><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban2/dist/jkanban4.css\"><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban2/dist/jkanban_form.css\"><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban2/dist/card_layout1.css\"><link rel=\"stylesheet\" href=\"/com.vyom.vyomlib/resources/kanban2/dist/jkanban_material_popup1.css\"><script src=\"/com.vyom.vyomlib/resources/kanban2/dist/jkanban.js\"></script></head><style>body {\r" +
     "\n" +
     "        font-family: \"Lato\";\r" +
     "\n" +
