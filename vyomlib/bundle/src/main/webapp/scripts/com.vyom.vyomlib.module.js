@@ -7,7 +7,7 @@
         'com.vyom.vyomlib.view-components.iframe2',
         'com.vyom.vyomlib.view-components.iframe',
         'com.vyom.vyomlib.view-components.custom-card',
-        
+        'com.vyom.vyomlib.view-components.pwidget',//productive widgets
        'com.vyom.vyomlib.view-components.vc7',//homepage1
        'com.vyom.vyomlib.view-components.vc9',//homepage2
         'com.vyom.vyomlib.view-components.vc10',//homepage3
