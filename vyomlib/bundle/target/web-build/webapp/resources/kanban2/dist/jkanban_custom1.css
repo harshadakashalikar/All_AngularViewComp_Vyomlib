@@ -93,9 +93,16 @@
   }
 
   #myKanban {
+  
     overflow-x: auto;
-    padding: 20px 0;
-    background-color: #6d6d6d;
+    /* right: -2278px; */
+    position: relative;
+    left: 43px;
+    /* padding: 20px 0; */
+    /* background-color: #6d6d6d; */
+    /* border-top-style: groove; */
+
+
   }
 
   .success {

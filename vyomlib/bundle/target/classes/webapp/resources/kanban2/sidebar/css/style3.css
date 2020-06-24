@@ -8209,7 +8209,7 @@ h1, h2, h3, h4, h5,
 #sidebar {
   min-width: 270px;
   max-width: 270px;
-  background: #494ca2;
+  background: #2a265f;
   color: #fff;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -8273,7 +8273,7 @@ h1, h2, h3, h4, h5,
       #sidebar .custom-menu .btn.btn-primary {    
         position: relative;
         left: 0px;
-        top: -45px;
+        top: -25px;
         background: #393c7f;
         border-color: #393c7f;}
         #sidebar .custom-menu .btn.btn-primary:hover, #sidebar .custom-menu .btn.btn-primary:focus {
@@ -8339,4 +8339,4 @@ a[data-toggle="collapse"] {
     color: rgba(255, 255, 255, 0.5); }
 
 .subscribe-form .form-control {
-  background: #5356b1; }
+  background: #373188b8; }
