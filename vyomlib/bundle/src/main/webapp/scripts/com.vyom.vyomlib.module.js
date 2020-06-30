@@ -24,7 +24,8 @@
         'com.vyom.vyomlib.view-components.landing-console',
         'com.vyom.vyomlib.view-components.registration',
         'com.vyom.vyomlib.view-components.test-vc1',
-        'com.vyom.vyomlib.view-components.custom-blog'
+        'com.vyom.vyomlib.view-components.custom-blog',
+        'com.vyom.vyomlib.view-components.menubar'
 
 
                     
